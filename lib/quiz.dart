@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:quizapp/data/question.dart';
 import 'package:quizapp/result_screen.dart';

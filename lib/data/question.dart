@@ -2,54 +2,93 @@ import 'package:quizapp/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Why do stateless systems scale better?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
-    ],
-  ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Because servers don not store user session data',
+      'Because they use more RAM',
+      'Because they avoid databases',
+      'Because they are faster by default',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'What is the primary role of a load balancer?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Distributes incoming traffic across multiple servers',
+      'Stores user data securely',
+      'Encrypts API responses',
+      'Manages database indexes',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'Why are refresh tokens considered more secure?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'They are sent less frequently and have a longer lifespan',
+      'They are smaller in size',
+      'They are stored in localStorage',
+      'They replace access tokens',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'What happens when DNS fails?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Websites cannot be resolved using domain names',
+      'The entire internet stops working',
+      'Databases crash',
+      'Load balancers stop working',
+    ],
+  ),
+  QuizQuestion(
+    'Why is O(1) time complexity considered best?',
+    [
+      'Execution time does not depend on input size',
+      'It uses less memory',
+      'It only works for small datasets',
+      'It runs once per program',
+    ],
+  ),
+  QuizQuestion(
+    'What is the main benefit of using a message queue?',
+    [
+      'It decouples services and improves reliability',
+      'It replaces databases',
+      'It speeds up UI rendering',
+      'It avoids APIs',
+    ],
+  ),
+  QuizQuestion(
+    'What does HTTPS add on top of HTTP?',
+    [
+      'Encryption and data integrity',
+      'Faster response time',
+      'Smaller payload size',
+      'Stateless behavior',
+    ],
+  ),
+  QuizQuestion(
+    'Why are database indexes used?',
+    [
+      'To speed up read queries',
+      'To store backup data',
+      'To reduce table size',
+      'To encrypt columns',
+    ],
+  ),
+  QuizQuestion(
+    'What is the biggest advantage of microservices?',
+    [
+      'Independent deployment and scalability',
+      'Fewer network calls',
+      'Single codebase',
+      'No need for DevOps',
+    ],
+  ),
+  QuizQuestion(
+    'Why is caching used in systems like Redis?',
+    [
+      'To reduce database load and latency',
+      'To permanently store data',
+      'To replace backend logic',
+      'To handle authentication',
     ],
   ),
 ];
